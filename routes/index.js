@@ -10,10 +10,12 @@ import CategorytController from '../lib/controller/categorytController'
  * 用户管理
  */
 router.post('/user/create',UserController.userAddAction);
-router.post('/user/login',UserController.userFindAction);
-router.post('/user/list',UserController.userFindAction);
+router.post('/user/login',UserController.userLogin);
+router.get('/user/logout',UserController.userLogout);
+router.get('/user/info',UserController.userInfo);
+router.get('/user/list',UserController.userFindAction);
 router.post('/user/remove',UserController.userRemoveAction);
-router.post('/user/update',UserController.userUpdateAction);
+router.patch('/user/update',UserController.userUpdateAction);
 
 /**
  * 文章管理
