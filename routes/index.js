@@ -29,7 +29,7 @@ router.post('/article/update',ArticleController.articleUpdateAction);
  * 菜单管理
  */
 router.post('/menu/create',MenuController.menuAddAction);
-router.post('/menu/list',MenuController.menuFindAction);
+router.get('/menu/list',MenuController.menuFindAction);
 router.post('/menu/remove',MenuController.menuRemoveAction);
 router.post('/menu/update',MenuController.menuUpdateAction);
 
