@@ -21,7 +21,7 @@ router.patch('/user/update',UserController.userUpdateAction);
  * 文章管理
  */
 router.post('/article/create',ArticleController.articleAddAction)
-router.post('/article/list',ArticleController.articleFindAction);
+router.get('/article/list',ArticleController.articleFindAction);
 router.post('/article/remove',ArticleController.articleRemoveAction);
 router.post('/article/update',ArticleController.articleUpdateAction);
 
