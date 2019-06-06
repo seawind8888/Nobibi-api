@@ -37,7 +37,7 @@ router.post('/menu/update',MenuController.menuUpdateAction);
  * 分类管理
  */
 router.post('/category/create',CategorytController.categoryAddAction);
-router.post('/category/list',CategorytController.categoryFindAction);
+router.get('/category/list',CategorytController.categoryFindAction);
 router.post('/category/remove',CategorytController.categoryRemoveAction);
 router.post('/category/update',CategorytController.categoryUpdateAction);
 
