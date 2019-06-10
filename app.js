@@ -21,7 +21,7 @@ app.all('*', (req, res, next) => {
 	const allowOrigin = origin || Origin || referer || Referer || '*';
 	res.header("Access-Control-Allow-Origin", allowOrigin);
 	res.header("Access-Control-Allow-Headers", "Content-Type, Cookie, Authorization, X-Requested-With");
-	res.header("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS");
+	res.header("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS,PATCH");
   res.header("Access-Control-Allow-Credentials", true); //可以带cookies
 	res.header("X-Powered-By", 'Express');
 	if (req.method == 'OPTIONS') {

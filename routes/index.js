@@ -39,7 +39,7 @@ router.post('/menu/update',MenuController.menuUpdateAction);
 router.post('/category/create',CategorytController.categoryAddAction);
 router.get('/category/list',CategorytController.categoryFindAction);
 router.post('/category/remove',CategorytController.categoryRemoveAction);
-router.post('/category/update',CategorytController.categoryUpdateAction);
+router.patch('/category/update',CategorytController.categoryUpdateAction);
 
 
 
