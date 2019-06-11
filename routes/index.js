@@ -4,8 +4,9 @@ const router = express.Router();
 
 import UserController from '../lib/controller/userController'
 import TopicController from '../lib/controller/topicController';
-import MenuController from '../lib/controller/menuController'
 import CategorytController from '../lib/controller/categorytController'
+import RoleController from '../lib/controller/roleController'
+import CommentController from '../lib/controller/commentController'
 /**
  * 用户管理
  */
@@ -26,14 +27,6 @@ router.post('/topic/removeTopic',TopicController.topicRemoveAction);
 router.patch('/topic/updateTopic',TopicController.topicUpdateAction);
 
 /**
- * 菜单管理
- */
-router.post('/menu/create',MenuController.menuAddAction);
-router.get('/menu/list',MenuController.menuFindAction);
-router.post('/menu/remove',MenuController.menuRemoveAction);
-router.post('/menu/update',MenuController.menuUpdateAction);
-
-/**
  * 分类管理
  */
 router.post('/category/createCategory',CategorytController.categoryAddAction);
@@ -41,13 +34,21 @@ router.get('/category/getCategoryList',CategorytController.categoryFindAction);
 router.post('/category/removeCategory',CategorytController.categoryRemoveAction);
 router.patch('/category/updateCategory',CategorytController.categoryUpdateAction);
 
-// /**
-//  * 评论管理
-//  */
-// router.post('/comment/create',CommentController.commentAddAction);
-// router.get('/comment/list',CommentController.commentFindAction);
-// router.post('/comment/remove',CommentController.commentRemoveAction);
-// router.patch('/comment/update',CommentController.commentUpdateAction);
+/**
+ * 角色管理
+ */
+router.post('/role/createRole',RoleController.roleAddAction);
+router.get('/role/getRoleList',RoleController.roleFindAction);
+router.post('/role/removeRole',RoleController.roleRemoveAction);
+router.patch('/role/updateRole',RoleController.roleUpdateAction);
+
+/**
+ * 评论管理
+ */
+router.post('/comment/addComment',CommentController.commentAddAction);
+router.get('/comment/getCommentList',CommentController.commentFindAction);
+router.post('/comment/removeComment',CommentController.commentRemoveAction);
+router.patch('/comment/updateComment',CommentController.commentUpdateAction);
 
 
 
