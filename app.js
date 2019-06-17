@@ -60,7 +60,7 @@ if(config.session.useRedis) {
 		cookie: { secure: false },
 		// maxAge: 3600000 * 24,
 		store: new MongoStore({
-			url: config.mongodb.url || 'mongodb://localhost:27017/vueAdmin'
+			url: config.mongodb.url || 'mongodb://localhost:27017/mongoCms'
 		})
 	}));
 }
