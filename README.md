@@ -33,9 +33,17 @@ npm run start
 > node (>=8.0.0)
 > mongo
 
-1. Clone项目
+1. 将项目上传到ssh
+
+2. cd到项目目录，安装依赖
 ```
-git clone https://github.com/seawind8888/ant-cms-admin my-project
+cd my-porject
+npm install 或 yarn
+```
+
+3. 运行pm2
+```
+npm run start:pm2
 ```
 
 ### 功能模块
@@ -50,6 +58,7 @@ git clone https://github.com/seawind8888/ant-cms-admin my-project
 
 ``` lua
 ├── config/               # 设置目录
+├── logs/               # log目录
 ├── lib/               # 核心代码
 │ ├── controller/       # 组件目录
 │ │ ├── categorytController.js       # 分类模块
