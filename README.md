@@ -27,6 +27,7 @@ mongorestore -d mongoCms /你的项目目录/mongoCms/
 npm run start
 ```
 
+
 ### 项目部署
 > 项目运行前请保证已经安装以下应用及环境
 > node (>=8.0.0)
