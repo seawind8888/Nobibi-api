@@ -8,7 +8,7 @@
 
 1. Clone项目
 ```
-git clone https://github.com/seawind8888/ant-cms-admin my-project
+git clone https://github.com/seawind8888/Nobibi-api
 ```
 
 2. 安装依赖
@@ -19,7 +19,7 @@ npm install 或 yarn
 
 3. 导入mongo基础数据
 ```
-mongorestore -d mongoCms /你的项目目录/mongoCms/
+mongorestore -d Nobibi /你的项目目录/db/
 ```
 
 4. 运行项目
