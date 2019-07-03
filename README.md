@@ -1,5 +1,5 @@
-# node-cms-mongo-es6
-基于node express mongo es6开发的cms内容管理系统（后端部分）
+# Nobibi-api
+基于node express mongo 开发的Nobibi接口部分
 
 ### 项目运行
 > 项目运行前请保证已经安装以下应用及环境

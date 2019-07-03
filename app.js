@@ -6,6 +6,7 @@ const routes = require('./routes')
 const config = require('./config')
 const session = require('express-session')
 // const cors = require('cors')
+const whiteList = ['/user/createUser','/user/login','/topic/getTopicList','/category/getCategoryList','/comment/getCommentList']
 
 
 
@@ -70,7 +71,7 @@ if(config.session.useRedis) {
 
 //session 鉴权
 app.use('/api',  (req, res, next) => {
-	if(req.path.indexOf('/user/login')<0 && !req.session.username || !req.cookies.username) {
+	if(whiteList.indexOf(req.path)<0 && (!req.session.username || !req.cookies.username)) {
 		res.send({
 			status: 500,
 			message: '请重新登录'
