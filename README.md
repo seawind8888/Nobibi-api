@@ -1,7 +1,7 @@
 # Nobibi-api
 基于node express mongo 开发的Nobibi接口部分
 
-### 项目运行
+## 项目运行
 > 项目运行前请保证已经安装以下应用及环境
 > node (>=8.0.0)
 > mongo
@@ -28,7 +28,7 @@ npm run start
 ```
 
 
-### 项目部署
+## 项目部署
 > 项目运行前请保证已经安装以下应用及环境
 > node (>=8.0.0)
 > mongo
@@ -46,7 +46,7 @@ npm install 或 yarn
 npm run start:pm2
 ```
 
-### 功能模块
+## 功能模块
 
 - [x] 用户管理
 - [x] 角色管理
@@ -54,7 +54,7 @@ npm run start:pm2
 - [x] 评论管理
 - [x] 内容分类管理
 
-### 目录结构
+## 目录结构
 
 ``` lua
 ├── config/               # 设置目录
@@ -83,7 +83,7 @@ npm run start:pm2
 
 ```
 
-### 技术选型
+## 技术选型
 
 - express - [https://expressjs.com/zh-cn/](https://expressjs.com/zh-cn/)
 - babel - [https://babeljs.io/](https://babeljs.io/)
