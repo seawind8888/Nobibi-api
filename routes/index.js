@@ -16,6 +16,7 @@ router.get('/user/logout',UserController.userLogout);
 router.get('/user/getUserInfo',UserController.userInfo);
 router.get('/user/getUserList',UserController.userFindAction);
 router.post('/user/removeUser',UserController.userRemoveAction);
+router.post('/user/changePass',UserController.userChangePassAction);
 router.patch('/user/updateUser',UserController.userUpdateAction);
 
 /**
