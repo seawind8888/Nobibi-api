@@ -1,6 +1,6 @@
 module.exports = {
     mongodb: {
-        url: "mongodb://localhost:27017/mongoCms"
+        url: "mongodb://localhost:27017/Nobibi"
     },
     redis: {
         host: '127.0.0.1',

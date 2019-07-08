@@ -1,1 +1,1 @@
-{"options":{},"indexes":[{"v":1,"key":{"_id":1},"name":"_id_","ns":"mongoCms.sessions"},{"v":1,"key":{"expires":1},"name":"expires_1","ns":"mongoCms.sessions","expireAfterSeconds":0}]}
+{"options":{},"indexes":[{"v":1,"key":{"_id":1},"name":"_id_","ns":"Nobibi.sessions"},{"v":1,"key":{"expires":1},"name":"expires_1","ns":"Nobibi.sessions","expireAfterSeconds":0}]}

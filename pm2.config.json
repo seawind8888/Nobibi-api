@@ -1,5 +1,5 @@
 {
-    "name"        : "node-cms-mongo", 
+    "name"        : "Nobibi-api", 
     "script"      : "bin/www", 
     "log_date_format"  : "YYYY-MM-DD HH:mm:SS",
     "error_file" : "logs/app1-err.log",
