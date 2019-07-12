@@ -92,4 +92,5 @@ npm run start:pm2
 - nodemon
 - pm2
 
-
+## 更新日志
+2019-7-12 更新到v1.1.0 升级babel7 重构部分代码 需重新安装npm依赖包
