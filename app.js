@@ -88,5 +88,5 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use('/api',routes)
 app.listen(port, () => {
-  console.log(`dwad listening on port ${port}`)
+  console.log(`Nobibi-api listening on port ${port}`)
 })

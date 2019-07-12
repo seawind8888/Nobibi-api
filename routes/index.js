@@ -7,6 +7,7 @@ import TopicController from '../lib/controller/topicController';
 import CategorytController from '../lib/controller/categorytController'
 import RoleController from '../lib/controller/roleController'
 import CommentController from '../lib/controller/commentController'
+import PraiseController from '../lib/controller/praiseController'
 /**
  * 用户管理
  */
@@ -50,6 +51,12 @@ router.post('/comment/addComment',CommentController.commentAddAction);
 router.get('/comment/getCommentList',CommentController.commentFindAction);
 router.post('/comment/removeComment',CommentController.commentRemoveAction);
 router.patch('/comment/updateComment',CommentController.commentUpdateAction);
+
+/**
+ * 点赞管理
+ */
+router.post('/praise/praiseAction',PraiseController.praiseAction);
+router.get('/praise/getPraiseInfo',PraiseController.praiseFindAction);
 
 
 
