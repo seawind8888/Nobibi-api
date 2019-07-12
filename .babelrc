@@ -1,9 +1,7 @@
 {
-    "presets": ["stage-0"],
     "plugins": [
-      "transform-async-to-generator",
-      "transform-es2015-classes",
-      "transform-es2015-modules-commonjs",
-      "transform-export-extensions"
+      "@babel/plugin-transform-async-to-generator",
+      "@babel/plugin-transform-modules-commonjs",
+      "@babel/plugin-proposal-class-properties"
     ]
 }
