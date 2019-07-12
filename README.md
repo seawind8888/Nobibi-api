@@ -88,7 +88,7 @@ npm run start:pm2
 - express - [https://expressjs.com/zh-cn/](https://expressjs.com/zh-cn/)
 - babel - [https://babeljs.io/](https://babeljs.io/)
 - mongoose - [https://mongoosejs.com/](https://mongoosejs.com/)
-- redis（seesion鉴权）
+- redis（选用，session鉴权）
 - nodemon
 - pm2
 

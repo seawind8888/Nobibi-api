@@ -6,7 +6,13 @@ const routes = require('./routes')
 const config = require('./config')
 const session = require('express-session')
 // const cors = require('cors')
-const whiteList = ['/user/createUser','/user/login','/topic/getTopicList','/category/getCategoryList','/comment/getCommentList']
+const whiteList = [
+	'/user/createUser',
+	'/user/login',
+	'/topic/getTopicList',
+	'/category/getCategoryList',
+	'/comment/getCommentList',
+	'/praise/getPraiseInfo']
 
 
 
