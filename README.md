@@ -40,8 +40,12 @@ npm run start
 cd my-porject
 npm install 或 yarn
 ```
+3. 导入mongo基础数据
+```
+mongorestore -d Nobibi /你的项目目录/db/Nobibi/
+```
 
-3. 运行pm2
+4. 运行pm2
 ```
 npm run pm2
 ```
