@@ -42,7 +42,7 @@ npm install 或 yarn
 ```
 3. 导入mongo基础数据
 ```
-mongorestore -d Nobibi /你的项目目录/db/Nobibi/
+mongorestore -d Nobibi /你的/项目/目录/db/Nobibi/
 ```
 
 4. 运行pm2
