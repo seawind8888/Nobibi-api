@@ -43,7 +43,7 @@ npm install 或 yarn
 
 3. 运行pm2
 ```
-npm run start:pm2
+npm run pm2
 ```
 
 ## 功能模块
