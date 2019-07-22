@@ -1,6 +1,6 @@
 {
     "name"        : "Nobibi-api", 
-    "script"      : "bin/www", 
+    "script"      : "index.js", 
     "log_date_format"  : "YYYY-MM-DD HH:mm:SS",
     "error_file" : "logs/app1-err.log",
     "out_file"   : "logs/app1-out.log",
