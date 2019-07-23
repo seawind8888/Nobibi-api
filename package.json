@@ -31,6 +31,7 @@
     "koa-bodyparser": "^4.2.1",
     "koa-compose": "^4.1.0",
     "koa-jwt": "^3.6.0",
+    "koa-logger": "^3.2.1",
     "koa-router": "^7.4.0",
     "koa2-cors": "^2.0.6",
     "nodemon": "^1.18.6",
