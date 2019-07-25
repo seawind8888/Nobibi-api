@@ -89,7 +89,8 @@ npm run pm2
 
 ## 技术选型
 
-- express - [https://expressjs.com/zh-cn/](https://expressjs.com/zh-cn/)
+- koa2 - [https://koajs.com/](https://koajs.com/)
+- koa-jwt - [https://github.com/koajs/jwt](https://github.com/koajs/jwt)
 - babel - [https://babeljs.io/](https://babeljs.io/)
 - mongoose - [https://mongoosejs.com/](https://mongoosejs.com/)
 - redis（选用，session鉴权）
