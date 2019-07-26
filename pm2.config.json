@@ -4,13 +4,5 @@
     "log_date_format"  : "YYYY-MM-DD HH:mm:SS",
     "error_file" : "logs/app1-err.log",
     "out_file"   : "logs/app1-out.log",
-    "exec_mode"  : "cluster_mode",
-    "watch"      :  true,
-    "ignore_watch" : [ 
-      "node_modules", 
-      "logs"
-    ],
-    "watch_options": {
-      "followSymlinks": false
-    }
+    "exec_mode"  : "cluster_mode"
   }
